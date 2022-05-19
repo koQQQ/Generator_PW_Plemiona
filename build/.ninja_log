@@ -1,0 +1,12 @@
+# ninja log v5
+19	1430	6746512516416734	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	9d96d6bf4e1168a0
+9	1571	6746512517996878	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	4fd40ea33282b589
+0	1588	6746512518146628	CMakeFiles/GeneratorPWPlemiona.dir/hello_test.cpp.obj	6f19da5a104a3eb2
+6	3112	6746512533407535	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	4835a406585d7946
+14	5889	6746512561121795	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	adc8ccbe15fc5615
+5890	6284	6746512565295723	lib/gtest.lib	7550d881ba3c7a7f
+6284	6489	6746512567340260	lib/gmock.lib	1790f21d3fb2fc28
+6290	6496	6746512567370179	lib/gtest_main.lib	d2c192a322b0fe89
+6490	6710	6746512569564305	lib/gmock_main.lib	bb71d4f8a6f44bb5
+6497	7965	6746512582093127	GeneratorPWPlemiona.exe	c30ba428756af59
+6497	7965	6746512582093127	GeneratorPWPlemiona[1]_tests.cmake	c30ba428756af59
