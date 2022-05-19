@@ -18,6 +18,7 @@ enable_testing()
 add_executable(
   GeneratorPWPlemiona
   hello_test.cpp
+  Tests.cpp
 )
 target_link_libraries(
   GeneratorPWPlemiona

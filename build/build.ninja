@@ -87,6 +87,15 @@ build CMakeFiles/GeneratorPWPlemiona.dir/hello_test.cpp.obj: CXX_COMPILER__Gener
   TARGET_COMPILE_PDB = CMakeFiles\GeneratorPWPlemiona.dir\
   TARGET_PDB = GeneratorPWPlemiona.pdb
 
+build CMakeFiles/GeneratorPWPlemiona.dir/Tests.cpp.obj: CXX_COMPILER__GeneratorPWPlemiona_Debug ../Tests.cpp || cmake_object_order_depends_target_GeneratorPWPlemiona
+  DEP_FILE = CMakeFiles\GeneratorPWPlemiona.dir\Tests.cpp.obj.d
+  FLAGS = -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++14
+  INCLUDES = -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest
+  OBJECT_DIR = CMakeFiles\GeneratorPWPlemiona.dir
+  OBJECT_FILE_DIR = CMakeFiles\GeneratorPWPlemiona.dir
+  TARGET_COMPILE_PDB = CMakeFiles\GeneratorPWPlemiona.dir\
+  TARGET_PDB = GeneratorPWPlemiona.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target GeneratorPWPlemiona
@@ -95,7 +104,7 @@ build CMakeFiles/GeneratorPWPlemiona.dir/hello_test.cpp.obj: CXX_COMPILER__Gener
 #############################################
 # Link the executable GeneratorPWPlemiona.exe
 
-build GeneratorPWPlemiona.exe GeneratorPWPlemiona[1]_tests.cmake: CXX_EXECUTABLE_LINKER__GeneratorPWPlemiona_Debug CMakeFiles/GeneratorPWPlemiona.dir/hello_test.cpp.obj | lib/gtest_main.lib lib/gtest.lib || lib/gtest.lib lib/gtest_main.lib
+build GeneratorPWPlemiona.exe GeneratorPWPlemiona[1]_tests.cmake: CXX_EXECUTABLE_LINKER__GeneratorPWPlemiona_Debug CMakeFiles/GeneratorPWPlemiona.dir/hello_test.cpp.obj CMakeFiles/GeneratorPWPlemiona.dir/Tests.cpp.obj | lib/gtest_main.lib lib/gtest.lib || lib/gtest.lib lib/gtest_main.lib
   FLAGS = -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd
   LINK_FLAGS = -Xlinker /subsystem:console
   LINK_LIBRARIES = lib/gtest_main.lib  lib/gtest.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames
