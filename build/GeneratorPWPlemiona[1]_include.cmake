@@ -1,5 +1,0 @@
-if(EXISTS "D:/VSC/Test1/build/GeneratorPWPlemiona[1]_tests.cmake")
-  include("D:/VSC/Test1/build/GeneratorPWPlemiona[1]_tests.cmake")
-else()
-  add_test(GeneratorPWPlemiona_NOT_BUILT GeneratorPWPlemiona_NOT_BUILT)
-endif()
