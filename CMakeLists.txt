@@ -4,6 +4,8 @@ project(GeneratorPWPlemiona)
 
 set(CMAKE_CXX_STANDARD 11)
 
+#add_compile_options(-Wall -Wextra -pedantic -Werror)
+
 include(FetchContent)
 FetchContent_Declare(
   googletest

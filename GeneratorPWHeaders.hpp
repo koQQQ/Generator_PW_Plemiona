@@ -5,8 +5,9 @@
 class Writes
 {
 public:
-    void load(std::string Data);
+    void load(const std::string& Data);
     std::vector<std::string> returnWrites();
 private:
+    bool CheckingCorrectCoords(const std::string& LineWithCoords);
     std::vector<std::string> Vector_for_Coords;
 };
